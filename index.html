@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="loading">
+        <img src="img/bota.png" alt="Loading..." width="100">
+        <p>Hola Ruby monito</p>
+    </div>
+    <div class="contenedor">
+        <div class="colores">
+            <button class="button" id="red" onclick="document.getElementById('audio-red').play()">Red</button>
+            <audio id="audio-red" src="audio/rojo.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="blue" onclick="document.getElementById('audio-blue').play()">Blue</button>
+            <audio id="audio-blue" src="audio/azul.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="green" onclick="document.getElementById('audio-green').play()">Green</button>
+            <audio id="audio-green" src="audio/green.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="black" onclick="document.getElementById('audio-black').play()">Black</button>
+            <audio id="audio-black" src="audio/black.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="yellow" onclick="document.getElementById('audio-yellow').play()">Yellow</button>
+            <audio id="audio-yellow" src="audio/amarillo.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="brown" onclick="document.getElementById('audio-brown').play()">Brown</button>
+            <audio id="audio-brown" src="audio/cafe.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="skyblue" onclick="document.getElementById('audio-skyblue').play()">Skyblue</button>
+            <audio id="audio-skyblue" src="audio/celeste.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="gray" onclick="document.getElementById('audio-gray').play()">Gray</button>
+            <audio id="audio-gray" src="audio/gray.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="orange" onclick="document.getElementById('audio-orange').play()">Orange</button>
+            <audio id="audio-orange" src="audio/naranja.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="pink" onclick="document.getElementById('audio-pink').play()">Pink</button>
+            <audio id="audio-pink" src="audio/pink.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="white" onclick="document.getElementById('audio-white').play()">White</button>
+            <audio id="audio-white" src="audio/white.mp3" type="audio/mpeg"></audio>
+
+            <button class="button" id="violet" onclick="document.getElementById('audio-violet').play()">Violet</button>
+            <audio id="audio-violet" src="audio/violeta.mp3" type="audio/mpeg"></audio>
+
+            
+
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            document.getElementById('loading').style.display = 'none';
+          }, 5000);
+        });
+      </script>
+</body>
+
+</html>
